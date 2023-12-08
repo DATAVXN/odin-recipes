@@ -2,3 +2,32 @@ body {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 18;
 }
+
+h1, h3, h4, .lessons, .footer {
+  position: absolute; 
+}
+
+h1 {
+  top:50px; 
+  left:800px;
+}
+
+h3 {
+  top:150px; 
+  left:820px;"
+}
+
+h4 {
+  top:200px; left:790px;
+}
+
+.lessons {
+  top:300px; left:700px;
+}
+
+.footer {
+    top:900px; 
+    left:800px;
+    text-align: center;
+    color: rgb(4, 3, 3);
+  }
