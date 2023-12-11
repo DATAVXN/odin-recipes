@@ -1,16 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 18;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
 }
 
-h1, h3, h4, .lessons, .footer {
-  position: absolute; 
-}
 
-h1 {
-  top:50px; 
-  left:800px;
+.title {
+  background-color: #f29c94;
+  padding:50px;
+  font-size:1rem;
 }
+/*
 
 h3 {
   top:150px; 
@@ -26,7 +31,7 @@ h4 {
 }
 
 .footer {
-    top:900px; 
+    top:800px; 
     left:800px;
     text-align: center;
     color: rgb(4, 3, 3);
