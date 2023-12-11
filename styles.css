@@ -11,17 +11,44 @@ body {
 
 
 .title {
-  background-color: #f29c94;
-  padding:50px;
-  font-size:1rem;
+  padding-top:30px;
+  font-size:.5rem;
 }
+
+.lomotitle {
+  background-color: pink;
+  padding-bottom: 1rem;
+  font-size: 6rem;
+  font-family: caveat;
+  letter-spacing: 1.5rem;
+  color:darkred;
+}
+
+.subtitle {
+  background-color: pink;
+  padding-bottom: 3rem;
+  font-size: 1.5rem;
+
+}
+
+a:link {
+  color:red;
+  text-decoration: none;
+}
+
+a:visited {
+  color:green;
+}
+
+a:hover {
+  color:darkred
+}
+
+a:active {
+  color:aliceblue
+}
+
 /*
-
-h3 {
-  top:150px; 
-  left:820px;
-}
-
 h4 {
   top:200px; left:790px;
 }
