@@ -28,6 +28,7 @@ body {
   background-color: pink;
   padding-bottom: 3rem;
   font-size: 1.5rem;
+  letter-spacing: .75rem;
 
 }
 
@@ -55,13 +56,18 @@ a:active {
   color:aliceblue
 }
 
-/*
-h4 {
-  top:200px; left:790px;
+.lessons {
+  padding: 20px 200px;
+  font-family: caveat;
+  font-size: 2rem;
+  width:50%
 }
 
-.lessons {
-  top:300px; left:700px;
+.list {
+  padding-left: 600px;
+  line-height: 2rem;
+  list-style-position: inside;
+  text-align: left;
 }
 
 .footer {
