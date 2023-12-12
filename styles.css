@@ -31,13 +31,20 @@ body {
 
 }
 
+.button {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 14px 28px 30px;
+  font-size: 2rem;
+  cursor:pointer;
+  text-align: center;
+  background-color: white;
+}
+
 a:link {
   color:red;
   text-decoration: none;
-}
-
-a:visited {
-  color:green;
 }
 
 a:hover {
