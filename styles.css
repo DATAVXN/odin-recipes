@@ -7,6 +7,9 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -33,10 +36,10 @@ body {
 }
 
 .button {
-  display: block;
+  display:block;
   width: 100%;
   border: none;
-  padding: 14px 28px 30px;
+  padding: 50px 28px 30px;
   font-size: 2rem;
   cursor:pointer;
   text-align: center;
@@ -57,7 +60,7 @@ a:active {
 }
 
 .lessons {
-  padding: 20px 200px;
+  padding: 30px 200px;
   font-family: caveat;
   font-size: 2rem;
   width:50%
@@ -70,9 +73,11 @@ a:active {
   text-align: left;
 }
 
+.meat li::marker {
+  content: '🥩   ';
+}
+
 .footer {
-    top:800px; 
-    left:800px;
-    text-align: center;
-    color: rgb(4, 3, 3);
+    margin-top: auto;
+    padding-bottom: 50px;
   }
