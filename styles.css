@@ -12,17 +12,17 @@ body {
   flex-direction: column;
 }
 
-
 .title {
   padding-top:30px;
   font-size:.5rem;
 }
 
+
 .lomotitle {
   background-color: pink;
   padding-bottom: 1rem;
+  font-family: Caveat;
   font-size: 6rem;
-  font-family: caveat;
   letter-spacing: 1.5rem;
   color:darkred;
 }
@@ -46,9 +46,24 @@ body {
   background-color: white;
 }
 
+.page2buttons {
+  background-color: darkred;
+  color:pink;
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.3rem;
+  border-style:dotted;
+  border-radius: 10%;
+  border: 4px double #cccccc;
+}
+
 a:link {
-  color:red;
+  color:darkred;
   text-decoration: none;
+}
+
+a:visited {
+    color:pink;
 }
 
 a:hover {
@@ -80,4 +95,8 @@ a:active {
 .footer {
     margin-top: auto;
     padding-bottom: 50px;
+  }
+
+  .image {
+    <img src="photos/lomosaltado.png" length="400" width="800" style="position: absolute; top: 170px; left: 470px;">
   }
