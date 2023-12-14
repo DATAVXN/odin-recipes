@@ -17,7 +17,6 @@ body {
   font-size:.5rem;
 }
 
-
 .lomotitle {
   background-color: pink;
   padding-bottom: 1rem;
@@ -64,21 +63,26 @@ a:active {
 }
 
 .lessons {
-  padding: 30px 200px;
+  padding: 20px 200px;
   font-family: caveat;
   font-size: 2rem;
   width:50%
 }
 
 .list {
-  padding-left: 600px;
+  padding-left: 700px;
   line-height: 2rem;
   list-style-position: inside;
   text-align: left;
+  padding-bottom: 150px;
 }
 
 .meat li::marker {
   content: '🥩   ';
+}
+
+.flag li::marker {
+  content: '🇵🇪    ';
 }
 
 .onion li::marker {
@@ -92,13 +96,24 @@ a:active {
 .lomoimage {
   background-image: url('/Users/pkrvxn/datavxn/repos/odin-recipes/recipes/photos/lomosaltado.png');
   background-size:cover;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-position:bottom;
   padding: 25%;
 }
 
-.footer {
-    margin-top: auto;
-    padding-bottom: 50px;
-  }
+.china {
+  image:url('/Users/pkrvxn/datavxn/repos/odin-recipes/recipes/photos/chineseperuvian.png');
+}
 
+.what {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  text-align: center;
+  margin-left: 45rem;
+  padding-bottom: 10px;
+}
+
+.footer {    
+    padding-bottom: 100px;
+  }
