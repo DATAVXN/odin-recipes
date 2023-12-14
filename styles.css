@@ -30,23 +30,12 @@ body {
 .subtitle {
   background-color: pink;
   padding-bottom: 3rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   letter-spacing: .75rem;
 
 }
 
-.button {
-  display:block;
-  width: 100%;
-  border: none;
-  padding: 50px 28px 30px;
-  font-size: 2rem;
-  cursor:pointer;
-  text-align: center;
-  background-color: white;
-}
-
-.page2buttons {
+.buttons {
   background-color: darkred;
   color:pink;
   margin: 5px;
@@ -67,7 +56,7 @@ a:visited {
 }
 
 a:hover {
-  color:darkred
+  color:lightcoral
 }
 
 a:active {
@@ -92,11 +81,24 @@ a:active {
   content: '🥩   ';
 }
 
+.onion li::marker {
+  content: '🧅   '
+}
+
+.tomato li::marker {
+  content: '🍅   '
+}
+
+.lomoimage {
+  background-image: url('/Users/pkrvxn/datavxn/repos/odin-recipes/recipes/photos/lomosaltado.png');
+  background-size:cover;
+  background-repeat: none;
+  background-position:bottom;
+  padding: 25%;
+}
+
 .footer {
     margin-top: auto;
     padding-bottom: 50px;
   }
 
-  .image {
-    <img src="photos/lomosaltado.png" length="400" width="800" style="position: absolute; top: 170px; left: 470px;">
-  }
