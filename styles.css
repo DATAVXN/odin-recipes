@@ -14,13 +14,16 @@ body {
   
 }
 
+.lomotitle, .subtitle {
+  background-color: pink;
+}
+
 .title {
-  padding-top:30px;
+  padding-top:5px;
   font-size:.5rem;
 }
 
 .lomotitle {
-  background-color: pink;
   padding-bottom: 1rem;
   font-family: Caveat;
   font-size: 6rem;
@@ -29,7 +32,6 @@ body {
 }
 
 .subtitle {
-  background-color: pink;
   padding-bottom: 3rem;
   font-size: 1rem;
   letter-spacing: .75rem;
@@ -93,6 +95,10 @@ a:active {
     text-align: left;
 }
 
+.olspacing {
+  padding-top: 1.5rem;
+}
+
 .ingredientlist {
   padding-left: 28rem;
     line-height: 2rem;
@@ -118,13 +124,24 @@ a:active {
     border-radius: 2rem;
   }
 
-  .video {
+.video {
+    background-color: lightblue;
     position: absolute; 
-    top: 15rem; 
-    right:20rem;
-    width:200px
+    top: 20rem; 
+    right:12rem;
+    padding: 15rem 25rem;
    }
-   
+
+.h_iframe iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%; 
+    height:100%;
+    border-color: darkred;
+    border-width: 8px;
+  }
+
 .meat li::marker {
   content: '🥩   ';
 }
@@ -133,14 +150,6 @@ a:active {
   content: '🇵🇪    ';
 }
 
-.onion li::marker {
-  content: '🧅   '
-}
-
-.tomato li::marker {
-  content: '🍅   '
-}
-
-.footer {    
-    padding-bottom: 100px;
+.footer { 
+    padding-bottom: 50px;
   }
