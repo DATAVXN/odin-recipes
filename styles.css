@@ -110,7 +110,7 @@ a:active {
   padding-bottom: 5rem;
 }
 
-.sideimage{
+.sideimage {
     position: absolute; 
     top: 15rem; 
     right:20rem;
@@ -118,6 +118,13 @@ a:active {
     border-radius: 2rem;
   }
 
+  .video {
+    position: absolute; 
+    top: 15rem; 
+    right:20rem;
+    width:200px
+   }
+   
 .meat li::marker {
   content: '🥩   ';
 }
