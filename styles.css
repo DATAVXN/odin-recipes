@@ -87,8 +87,7 @@ a:active {
 }
 
 .list {
-  background-color: pink;
-  padding-left: 500px;
+  padding-left: 700px;
   line-height: 2rem;
   list-style-position: inside;
   text-align: left;
