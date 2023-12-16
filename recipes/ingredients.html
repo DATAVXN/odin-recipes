@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
     <title>Ingredients</title>
-
   </head>
 
 <body>
-  <h1 style="position: absolute; top:50px; left:760px;">Ingredients</h1>
-  <div style="width: 50%; padding: 4px; float:left; position: absolute; top: 200px; left: 500px;">
-    <ul style="width:200%; float:left;">
-      <h3>Main Course:</h3>
-      <li>Tender Beef, 1 lb</li>
+  <div class="title"><h1>Odin Recipes</h1></div>
+  <div class="lomotitle"><h3>Lomo Saltado</h3></div>
+  <div class="subtitle"><h4>Ingredients</h4></div>
+
+  <div class="lessons"><h3>Main Course:</h3></div>
+  <div class="ingredientlist">
+    <ul class="columns">
+      <li >Tender Beef, 1 lb</li>
       <li>Red Onion, 1 sliced thick</li>
       <li>Cilantro, a few springs, chopped</li>
       <li>Soy Sauce, 1/4 cup</li>
@@ -25,22 +28,32 @@
       <li>Steak Fries</li>
       <li>White Rice, 2 cups</li>
     </ul>
-  <br>
-
-    <ul>
-      <h3>Accompaniments:</h3>
+  </div>
+    
+  <div class="lessons"><h3>Accompaniments:</h3></div>
+    <ul class="ingredientlist bottomcushion">
       <li>White Rice</li>
       <li>French Fries</li>
     </ul>
   </div>  
 
-  <div style="width: 50%; padding: 4px; float:right; position: absolute; top: 120px; left: 1000px;">
-    <img src="photos/ingredients.png" alt="Ingredients needed to make lomo saltado displayed on a table." >
+  <div><img src="photos/ingredients.png" class="ingredientimage sideimage" alt="Ingredients needed to make lomo saltado."
   </div>
 
-  <div style="position: absolute; top:800px; left:800px;">
-    <a href="info.html" ><button>Back</button></a>
-    <a href="recipe.html" ><button>Next</button></a>
-  </div>
+  <br>
+    <div>
+      <button type="submit" class="buttons"><a href="info.html">Back</a></button>
+      <button type="submit" class="buttons"><a href="recipe.html" >Next</a></button>
+    </div>
+  
+  </main>
+    <br>
+  <footer>
+    <div class="footer">
+      <h5> &copy2023 DataVxn</h5>
+    </div>
+  </footer>
+    <br>
+</body>
 
 </body>
