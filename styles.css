@@ -47,6 +47,11 @@ body {
   border: 4px double #cccccc;
 }
 
+ .lomoimage {
+    margin: -60px;
+    z-index: -1;
+ }
+
 a:link {
   color:darkred;
   text-decoration: none;
