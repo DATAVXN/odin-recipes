@@ -70,35 +70,53 @@ a:active {
 }
 
 .lessons {
-  display:flow-root;
-  padding: 2rem;
+  margin-left: 20%;
+  text-align: left;
+  padding: 1.5rem;
   font-family: caveat;
   font-size: 2rem;
-  text-align: right;
-  width:40%
+  text-align: left;
+  width:20%;
 }
 
 .what {
-  display: inline-block;
+  margin-left: 30%;
   width: 30rem;
-  margin-left: 2rem;
-  padding: 15px;
-  text-align: justify;
+  padding: 2rem;
+  line-height: 1.5rem;
 }
 
 .list {
-  padding-left: 55rem;
-  line-height: 2rem;
-  list-style-position: inside;
-  text-align: left;
-  padding-bottom: 150px;
+  padding-left: 45rem;
+    line-height: 2rem;
+    list-style-position: inside;
+    text-align: left;
 }
 
-.china {
-  position: absolute; 
-  top: 18rem; 
-  right:20rem;
+.ingredientlist {
+  padding-left: 28rem;
+    line-height: 2rem;
+    list-style-position: inside;
+    text-align: left;
 }
+
+.columns {
+  columns:2;
+  width:45%;
+  padding:1rem;
+}
+
+.bottomcushion {
+  padding-bottom: 5rem;
+}
+
+.sideimage{
+    position: absolute; 
+    top: 15rem; 
+    right:20rem;
+    border: 2px solid darkred;
+    border-radius: 2rem;
+  }
 
 .meat li::marker {
   content: '🥩   ';
