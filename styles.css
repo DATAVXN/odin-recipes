@@ -19,11 +19,8 @@ body {
     margin: 0 auto;
 }
 
-/*-------Style Headers--------*/
 
-@media only screen and (min-width:768px),
-       only screen and (min-width:700px) 
-       and (orientation:landscape) {
+/*-------Style Headers--------*/
 .lomotitle, .subtitle {
   background-color: pink;
 }
@@ -72,10 +69,9 @@ body {
   padding: 2rem;
 }
 
-.lomoimage {
-    background-position: center cover;
+.lomoimagediv {
     background-color: lightblue;
-    margin: -18rem;
+    margin-top: -10rem;
     z-index: -5;
  }
 
@@ -182,4 +178,8 @@ a:active {
 .flag li::marker {
   content: '🇵🇪    ';
 }
-       }
+
+.copyright {
+  text-align: left;
+  padding-left: 1rem;
+}
