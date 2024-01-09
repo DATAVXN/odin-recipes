@@ -1,24 +1,30 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  
+  box-sizing: border-box; 
 }
 
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  
 }
 
+.wrapper {
+  min-height: calc(100vh - 40px);
+}
+
+.maincontainer {
+    width:60%;
+    margin: 0 auto;
+}
+
+/*-------Style Headers--------*/
 .lomotitle, .subtitle {
   background-color: pink;
 }
 
-.title {
+.odintitle {
   padding-top:5px;
   font-size:.5rem;
 }
@@ -35,9 +41,9 @@ body {
   padding-bottom: 3rem;
   font-size: 1rem;
   letter-spacing: .75rem;
-
 }
 
+/*------Style all buttons on every page ----------*/
 .buttons {
   background-color: darkred;
   color:pink;
@@ -49,6 +55,13 @@ body {
   border: 4px double #cccccc;
 }
 
+.buttonbox {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* ----------Style for Lomo.html-------------*/
  .lomoimage {
     margin: -60px;
     z-index: -1;
@@ -71,14 +84,29 @@ a:active {
   color:aliceblue
 }
 
-.lessons {
-  margin-left: 20%;
-  text-align: left;
-  padding: 1.5rem;
+/*---------Style maindiv of index page------------*/
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.lessonslearned {
   font-family: caveat;
   font-size: 2rem;
   text-align: left;
-  width:20%;
+  padding-left: 2rem;
+}
+
+.list {
+  line-height: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.meat {
+  text-align: left;
 }
 
 .what {
@@ -86,13 +114,6 @@ a:active {
   width: 30rem;
   padding: 2rem;
   line-height: 1.5rem;
-}
-
-.list {
-  padding-left: 45rem;
-    line-height: 2rem;
-    list-style-position: inside;
-    text-align: left;
 }
 
 .olspacing {
@@ -149,7 +170,3 @@ a:active {
 .flag li::marker {
   content: '🇵🇪    ';
 }
-
-.footer { 
-    padding-bottom: 50px;
-  }
