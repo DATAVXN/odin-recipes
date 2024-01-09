@@ -11,7 +11,7 @@ body {
 }
 
 .wrapper {
-  min-height: calc(100vh - 40px);
+  min-height: calc(100vh - 20px);
 }
 
 .maincontainer {
@@ -61,15 +61,20 @@ body {
 
 .buttonbox {
   display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.buttonboxlomo {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 2rem;
 }
- 
+
 .lomoimage {
-  background-position:top;
+    background-position: center cover;
     background-color: lightblue;
-    background-size: cover;
     margin: -18rem;
     z-index: -5;
  }
